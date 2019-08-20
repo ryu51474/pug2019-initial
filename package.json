@@ -4,7 +4,7 @@
   "description": "portfolio photography",
   "main": "app.js",
   "keywords": [],
-  "author": "",
+  "author": "Daniel Cornejo",
   "license": "ISC",
   "private": true,
   "browserslist": [
@@ -18,5 +18,17 @@
     "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryu51474/pug2019-initial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryu51474/pug2019-initial/issues"
+  },
+  "homepage": "https://github.com/ryu51474/pug2019-initial#readme"
 }
