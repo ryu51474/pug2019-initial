@@ -1,0 +1,44 @@
+/* line 4, dev/styles.scss */
+body {
+  background: gray;
+}
+
+/* line 8, dev/styles.scss */
+div {
+  color: blue;
+  align-items: center;
+}
+
+/* line 13, dev/styles.scss */
+nav {
+  text-align: center;
+  color: #ccc;
+}
+
+/* line 18, dev/styles.scss */
+li {
+  color: yellowgreen;
+  font-size: 3em;
+}
+
+/* line 23, dev/styles.scss */
+h2 {
+  color: blue;
+}
+
+/* line 27, dev/styles.scss */
+h3 {
+  font-size: 4cm;
+  margin: 1px;
+}
+
+/* line 31, dev/styles.scss */
+img {
+  background-color: chartreuse;
+  transition-delay: 5s;
+}
+
+/* line 35, dev/styles.scss */
+iframe {
+  margin: center;
+}
