@@ -27,18 +27,12 @@ html(lang="en")
     title Document
     link(rel="stylesheet", href="./css/styles.css")
   body
-    div
-
-
-
-
-
     div:  -const persona={nombre:'Danny',mail:'ryu@mail.com',otro:'otro'}
-          //- tiene que ser inverso en el each
-          each valor,llave in persona
-            p= `${llave}:${valor}`
-          else
-            span NO FUNCIONA
+      //- tiene que ser inverso en el each
+      each valor,llave in persona
+        p= `${llave}:${valor}`
+      else
+        span NO FUNCIONA
 
 
     div
@@ -46,8 +40,8 @@ html(lang="en")
       |
       //- ? names : ['error']
       each nombre in names
-          p= `${nombre.charAt(0).toUpperCase()}${nombre.substring(1)}` 
-          //- charAt(0) selecciona primera letra y substring (1) minuscula de la segunda letra en adelante
+        p= `${nombre.charAt(0).toUpperCase()}${nombre.substring(1)}` 
+        //- charAt(0) selecciona primera letra y substring (1) minuscula de la segunda letra en adelante
     div
       |
       each user,indice in names
@@ -58,8 +52,8 @@ html(lang="en")
     div: |
       -let n=0
         ul: while n<20
-              li= n++
-      
+          li= n++
+
     div: img(src="https://liceotecnicotalcahuano.cl/wp-content/uploads/2017/09/cropped-LOGO.png", alt="logo liceo")
     header
       nav#main-nav
