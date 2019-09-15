@@ -45,7 +45,7 @@ const postCssPlugins =[
 
 //tareas gulp
 gulp.task('pug', () => {
-  return gulp.src('./dev/*.pug')//origen de archivo
+  return gulp.src('./dev/pages/*.pug')//origen de archivo
     .pipe(plumber())
     .pipe(pug({
       pretty: true //opciones de funcion de compilado
@@ -105,7 +105,7 @@ gulp.task('default', () => {
   : gulp.watch('./dev/*.scss', gulp.series('stylesDev')).on('change', servidor.reload)
 
   //PUG
-  gulp.watch('./dev/*.pug', gulp.series('pug')).on('change', servidor.reload)
+  gulp.watch('./dev/**/*.pug', gulp.series('pug')).on('change', servidor.reload)
   //gulp.watch('./dev/*.sass', gulp.series('sass')).on('change', servidor.reload)
   // JS
   gulp.watch('./dev/*.js', gulp.series('babel')).on('change', servidor.reload)
