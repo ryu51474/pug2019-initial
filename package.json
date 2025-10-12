@@ -17,7 +17,7 @@
     "@babel/preset-env": "^7.5.5",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^3.0.4",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
@@ -32,7 +32,7 @@
     "postcss-zindex": "^4.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
+    "@babel/cli": "^7.28.3",
     "@babel/core": "^7.5.5"
   }
 }
